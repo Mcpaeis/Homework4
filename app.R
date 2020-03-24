@@ -1,13 +1,11 @@
 library(shiny)
 library(shinythemes)
+
 library(tidyverse)
 library(tibble)
 library(lubridate)
 library(ggplot2)
 library(gtable)
-
-library(shiny)
-library(shinythemes)
 
 ###server
 server <- function(input, output, session) {
